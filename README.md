@@ -35,14 +35,23 @@ Week 4
 Seaborn and Matplotlib libraries were imported to perform data visualisation.
 
 Objective 1
+
 In the first objective through which monthly trends of appointments were looked into, the X axis reflected the variable factor (appointment count), whereas the Y axis reflected the non-variable factor (appointment month), and the hue reflected the categorical attribute (service settings, context types and national categories). 
 
 From the visualisation, the monthly trends of ‘GP’ as a service setting attribute and that of ‘Care Related Encounter’ as a context type attribute appeared very similar, it was fair to say that most GP consultations could be classified as care related encounters. Looking at the monthly trends of appointment count by national categories, we could tell that although the majority of appointments were routine general consultations, there was a surge in appointment count in October at planned clinics, the increase cast a significant impact on the total appointment count of the month, making it the second busiest month within the period of study.
 
 Objective 2
+
 With GP being the key service setting attribute, the seasonal appointment trends from the perspective of service setting were looked into further. 4 specific months representing one season each were selected, and a subset of the dataframe in which a filter was applied, was created to extract data specific to those 4 months.
 
 Visualisations of all 4 seasons reflected similar cyclical patterns - appointment count reached the peak in the start of the cycle, then dropped steadily across a fixed period and plummeted to zero around the end of the cycle. Looking at the actual dates and periods in which the cycle repeats, it could be deduced that it was a weekly pattern, over which Mondays boasted the highest appointment count, with a fairly constant drop on appointment count across the weekdays, and later plunged to a minimal value on Saturdays.
 
 Comparing the trends of all 4 seasons, it was true to say that autumn was the season with highest service demand, followed by winter, and summer being the season with lowest service demand.
+
+
+Week 5
+
+To facilitate parsing of the Twitter data set, a for loop was used to break string data in a text-only subset by spacing and extract phrases that contain symbol #, which is the identifier for a hashtag. From the bar chart, we could tell which hashtags were trending for the time being, and since hashtags serve as a keyword for content search, the NHS team could identify top hashtags and search them on twitter to look for the most popular and relevant tweets.
+
+Some of the hashtags in the top trending list were not directly related to health, therefore to provide insights closely relevant to NHS, the for loop was used again to identify hashtags that contained the word “health”, the filtered result was then visualised in a bar chart. From the chart, it was apparent that many of the top trending hashtags related to ‘health’ were related to keywords like ‘digital’, ‘tech’, ‘IT’ etc., reflecting the public interest over healthcare service digitalization.
 
