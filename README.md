@@ -28,3 +28,21 @@ Week 3
 Since the date data in the data sets were initially provided in the form of text strings, to enable further analysis on a by-month basis, conversion of dates into year-month-day format was required and was done through the Python datetime module. The .groupby() function allowed aggregation of the appointment count with respect to the monthly window, which in turn provided an overview on the monthly appointment trend. Subsets of dataframes were created during these steps to ensure while the dataframes were being modified, the original data sets would remain intact.
 
 North West London, being the leading appointment location in the data set, was seen having GP as the most popular service setting among appointments, and this had given an indicative view over the demand for GP. October and November, being the 2 months with the highest no. of appointments, were the period that would require further deep diving for sure.
+
+
+Week 4
+
+Seaborn and Matplotlib libraries were imported to perform data visualisation.
+
+Objective 1
+In the first objective through which monthly trends of appointments were looked into, the X axis reflected the variable factor (appointment count), whereas the Y axis reflected the non-variable factor (appointment month), and the hue reflected the categorical attribute (service settings, context types and national categories). 
+
+From the visualisation, the monthly trends of ‘GP’ as a service setting attribute and that of ‘Care Related Encounter’ as a context type attribute appeared very similar, it was fair to say that most GP consultations could be classified as care related encounters. Looking at the monthly trends of appointment count by national categories, we could tell that although the majority of appointments were routine general consultations, there was a surge in appointment count in October at planned clinics, the increase cast a significant impact on the total appointment count of the month, making it the second busiest month within the period of study.
+
+Objective 2
+With GP being the key service setting attribute, the seasonal appointment trends from the perspective of service setting were looked into further. 4 specific months representing one season each were selected, and a subset of the dataframe in which a filter was applied, was created to extract data specific to those 4 months.
+
+Visualisations of all 4 seasons reflected similar cyclical patterns - appointment count reached the peak in the start of the cycle, then dropped steadily across a fixed period and plummeted to zero around the end of the cycle. Looking at the actual dates and periods in which the cycle repeats, it could be deduced that it was a weekly pattern, over which Mondays boasted the highest appointment count, with a fairly constant drop on appointment count across the weekdays, and later plunged to a minimal value on Saturdays.
+
+Comparing the trends of all 4 seasons, it was true to say that autumn was the season with highest service demand, followed by winter, and summer being the season with lowest service demand.
+
