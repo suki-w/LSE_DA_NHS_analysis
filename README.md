@@ -3,7 +3,7 @@ NHS Diagnostic Analysis Using Python
 
 Week 1
 
-My Github was set up with a main branch and a branch called Weekly Update Branch. Pull requests will be made to merge update from the Weekly Udpate Branch to the Main Branch.
+As a data analyst conducting analysis for the NHS team, my task scope was to identify the root cause of missed GP appointments. To start with, I have created a Github repository to store and manage my analysis. My Github was set up with a main branch and a branch called Weekly Update Branch. Pull requests will be made to merge updates from the Weekly Update Branch to the Main Branch.
 
 Github enables data analysts to store their own working codes, while at the same time allowing teams to contribute to collaborative work with proper version controls. In particular, Github enables storage of different versions of one set of code base, so that each team member can extract a specific version of the codes for his own development, then merge updates with the original codes through pull requests to the main branch.
 
@@ -51,7 +51,24 @@ Comparing the trends of all 4 seasons, it was true to say that autumn was the se
 
 Week 5
 
-To facilitate parsing of the Twitter data set, a for loop was used to break string data in a text-only subset by spacing and extract phrases that contain symbol #, which is the identifier for a hashtag. From the bar chart, we could tell which hashtags were trending for the time being, and since hashtags serve as a keyword for content search, the NHS team could identify top hashtags and search them on twitter to look for the most popular and relevant tweets.
+To facilitate parsing of the Twitter data set, a for loop was used to break string data by spacing in a text-only subset and extract phrases that contain the symbol #, which is the identifier for a hashtag. From the bar chart, we could tell which hashtags were trending at that time, and since hashtags serve as a keyword for twitter content search, the NHS team could identify top hashtags and search for them on twitter to look for the most popular and relevant tweets.
 
-Some of the hashtags in the top trending list were not directly related to health, therefore to provide insights closely relevant to NHS, the for loop was used again to identify hashtags that contained the word “health”, the filtered result was then visualised in a bar chart. From the chart, it was apparent that many of the top trending hashtags related to ‘health’ were related to keywords like ‘digital’, ‘tech’, ‘IT’ etc., reflecting the public interest over healthcare service digitalization.
+Some of the hashtags in the top trending list were not directly related to health, therefore to provide insights more meaningful and relevant to NHS, the for loop was used again to identify hashtags that contained the word “health”, the filtered result was then visualised in a bar chart. From the chart, it was apparent that many of the top trending hashtags associated with ‘health’ came with keywords like ‘digital’, ‘tech’, ‘IT’ etc., reflecting the public interest over opportunities for digitization of healthcare service.
 
+
+Week 6
+
+The healthcare service utilisation rate should be studied to evaluate whether there were sufficient staff and capacity in the network. From the utilisation % chart, utilisation rate was over 80% only for the months of Oct, Nov and Mar, whereas the utilisation rate was about 70% or below for the rest of the months.
+
+It reflected that resources were generally adequate to sustain operations, although it would be worthwhile for the NHS to re-think human resources planning for ad-hoc demand during peak season. As from the booking to appointment duration chart, same day appointment count increased considerably in peak months, March in particular. Such ad-hoc demand might create gaps over manpower planning and cast pressure on overall operations.
+
+October was a busy month boasting high appointment counts. From the HCP type chart, there was a drop in the GP appointments for the month, and it appeared that the gap in service demand was covered by other practice staff, as seen from the increase in appointment count of this HCP type. The NHS could look into detailed deployment of this HCP type and see whether staff from this pool could serve as supplementary resources to the short-term shortage of GP resources during peak times.
+
+
+Opportunities for Further Analysis
+
+The utilisation rate was lower in the months of Dec, Jan, Feb and Apr, and it was sensible for Dec and Apr to reflect a relatively lower utilisation rate, as there were bank holidays for Christmas and Easter which rendered over-estimation on the operating day count. To improve precision of the analysis, it may be worthwhile to base the calculated utilisation data on the actual operating days of the NHS each month, instead of the 30-day assumptions.
+
+Since the utilisation rate was calculated based on the appointment count, the appointment status was not taken into account, despite some appointments might be missed in reality. Per the appointment status chart, every month there was a steady portion of appointments not being attended by patients, which in turn reduced the level of utilisation. For more accurate reflection of the utilisation level, the DNA appointment count data should be deducted from the total appointment count data before the utilisation rate calculation.
+
+Just because appointments were normally booked when the patient started to feel unwell, by nature, the booking to appointment duration would be short, and it might be associated with the potential cause of missed appointments. Further study should be conducted to see whether there was correlation between the booking to appointment duration and the DNA appointment count.
