@@ -60,15 +60,8 @@ Week 6
 
 The healthcare service utilisation rate should be studied to evaluate whether there were sufficient staff and capacity in the network. From the utilisation % chart, utilisation rate was over 80% only for the months of Oct, Nov and Mar, whereas the utilisation rate was about 70% or below for the rest of the months.
 
-It reflected that resources were generally adequate to sustain operations, although it would be worthwhile for the NHS to re-think human resources planning for ad-hoc demand during peak season. As from the booking to appointment duration chart, same day appointment count increased considerably in peak months, March in particular. Such ad-hoc demand might create gaps over manpower planning and cast pressure on overall operations.
+Since the utilisation rate was calculated based on the appointment count, the appointment status was not taken into account, despite some appointments might be missed in reality. Per the appointment status chart, every month there was a steady portion of appointments not being attended by patients, which in turn reduced the level of utilisation. For more accurate reflection of the utilisation level, the DNA appointment was deducted from the total appointment count data to refresh the utilisation rate calculation.
+
+Per the chart of actual utilisation rate, it reflected that resources were generally adequate to sustain operations, although it would be worthwhile for the NHS to re-think human resources planning for ad-hoc demand during peak season. As from the booking to appointment duration chart, same day appointment count increased considerably in peak months, March in particular. Such ad-hoc demand might create gaps over manpower planning and cast pressure on overall operations.
 
 October was a busy month boasting high appointment counts. From the HCP type chart, there was a drop in the GP appointments for the month, and it appeared that the gap in service demand was covered by other practice staff, as seen from the increase in appointment count of this HCP type. The NHS could look into detailed deployment of this HCP type and see whether staff from this pool could serve as supplementary resources to the short-term shortage of GP resources during peak times.
-
-
-Opportunities for Further Analysis
-
-The utilisation rate was lower in the months of Dec, Jan, Feb and Apr, and it was sensible for Dec and Apr to reflect a relatively lower utilisation rate, as there were bank holidays for Christmas and Easter which rendered over-estimation on the operating day count. To improve precision of the analysis, it may be worthwhile to base the calculated utilisation data on the actual operating days of the NHS each month, instead of the 30-day assumptions.
-
-Since the utilisation rate was calculated based on the appointment count, the appointment status was not taken into account, despite some appointments might be missed in reality. Per the appointment status chart, every month there was a steady portion of appointments not being attended by patients, which in turn reduced the level of utilisation. For more accurate reflection of the utilisation level, the DNA appointment count data should be deducted from the total appointment count data before the utilisation rate calculation.
-
-Just because appointments were normally booked when the patient started to feel unwell, by nature, the booking to appointment duration would be short, and it might be associated with the potential cause of missed appointments. Further study should be conducted to see whether there was correlation between the booking to appointment duration and the DNA appointment count.
