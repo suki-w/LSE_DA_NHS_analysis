@@ -44,9 +44,11 @@ Objective 2
 
 With GP being the key service setting attribute, the seasonal appointment trends from the perspective of service setting were looked into further. 4 specific months representing one season each were selected, and a subset of the dataframe in which a filter was applied, was created to extract data specific to those 4 months.
 
-Visualisations of all 4 seasons reflected similar cyclical patterns - appointment count reached the peak in the start of the cycle, then dropped steadily across a fixed period and plummeted to zero around the end of the cycle. Looking at the actual dates and periods in which the cycle repeats, it could be deduced that it was a weekly pattern, over which Mondays boasted the highest appointment count, with a fairly constant drop on appointment count across the weekdays, and later plunged to a minimal value on Saturdays.
+Visualisations of all 4 seasons reflected similar cyclical patterns - appointment count reached the peak in the start of the cycle, then dropped steadily across a fixed period and plummeted to zero around the end of the cycle. Looking at the actual dates and periods in which the cycle repeats, it could be deduced that it was a weekly pattern, over which Mondays boasted the highest appointment count, with a fairly constant drop on appointment count across the weekdays, and later plunged to a minimal value on Saturdays. It made sense to say that the level of service provided to patients on Saturdays was limited.
 
-Comparing the trends of all 4 seasons, it was true to say that autumn was the season with highest service demand, followed by winter, and summer being the season with lowest service demand.
+For Autumn season however, from the chart, considerable capacity had been allocated to take appointments on Saturdays, as it was seen that the no. of appointments taken care of on Autumn Saturdays were somehow on par with the weekday appointment volume in other seasons.
+
+Comparing the trends of all 4 seasons, it was true to say that autumn was the season with highest service demand, followed by winter, and summer being the season with lowest service demand. 
 
 
 Week 5
