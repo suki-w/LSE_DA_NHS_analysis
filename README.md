@@ -1,6 +1,9 @@
 # LSE_DA_NHS_analysis
 NHS Diagnostic Analysis Using Python
 
+Access presentation video from the link below:
+https://drive.google.com/file/d/1wIPv3X3UY857WLRv4zp1BDVwtx3LV2bF/view?usp=share_link
+
 Week 1
 
 As a data analyst conducting analysis for the NHS team, my task scope was to identify the root cause of missed GP appointments. To start with, I have created a Github repository to store and manage my analysis. My Github was set up with a main branch and a branch called Weekly Update Branch. Pull requests will be made to merge updates from the Weekly Update Branch to the Main Branch.
