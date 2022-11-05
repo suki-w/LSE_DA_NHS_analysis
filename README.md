@@ -1,8 +1,7 @@
 # LSE_DA_NHS_analysis
 NHS Diagnostic Analysis Using Python
 
-Access presentation video from the link below:
-https://drive.google.com/file/d/1wIPv3X3UY857WLRv4zp1BDVwtx3LV2bF/view?usp=share_link
+Access presentation video from the link: https://drive.google.com/file/d/1wIPv3X3UY857WLRv4zp1BDVwtx3LV2bF/view?usp=share_link
 
 Week 1
 
